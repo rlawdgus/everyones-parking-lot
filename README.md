@@ -1,83 +1,44 @@
-# Getting Started with Create React App
+# 모두의 주차장
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    공간을 나누는 공유주차장 플랫폼
 
-## Available Scripts
+## 개요
 
-In the project directory, you can run:
+-   주차 정보 안내
+-   주차장 공유(민영 주차공간 공유)
+-   공유 및 제휴 주차장 요금 모바일 결제 / 할인예약
+-   전국 공항 실시간 주차장 및 운항 정보(한국공항공사 제휴)
+-   수도권 주차장 혼잡도 안내
 
-### `yarn start`
+<img src="./screenshot/capture.png" width="100%">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 기술 스택
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-   React
+-   Redux Saga
+-   Swiper
+-   kakao Maps API
+-   SCSS
+-   Express
+-   MySQL
+-   Sequelize
 
-### `yarn test`
+## 개발 인원 · 역할 · 기간
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   풀스택 1명, 프런트엔드 3명, 백엔드 1명
+-   역할(프런트엔드)
+    -   인트로
+    -   로그인, 회원가입, 아이디/비밀번호 찾기
+    -   이용내역(리스트 관리)
+    -   리뷰(리스트, 글 작성, 댓글)
+    <p align="center">
+    <img src="./screenshot/intro.png" width="100%">
+    <img src="./screenshot/auth.png" width="100%">
+    <img src="./screenshot/use.png" width="100%">
+    <img src="./screenshot/review.png" width="100%">
+    </p>
+-   2개월 작업
 
-### `yarn build`
+## URL
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-# Package List
-
-- axios
-- node-sass
-- react-router-dom
-
-- redux
-- react-redux
-- redux-saga
-- redux-actions
-- redux-devtools-extension
+https://intospace.kr/
